@@ -1,5 +1,5 @@
 # vueapp1
-
+网站前端使用 Vue.js， 后端使用 Node.js 配合 Express 框架完成了一个单页的 Web 程序（SPA），站内所有的页面跳转都不需要刷新。充分利用 Vue 进行组件化开发，增加对于组件的复用，使用 Axios 对后台数据进行异步获取，使用 MongoDB 对数据进行操作处理， 采用 Bootstrap 对网站进行响应式布局。同时使用 JQuery 实现了一些与用户交互的特效。其中相册功能采用了Node 中的 cheerio 模块配合 sync-request 库可以实现一键爬虫功能，按需爬取自己所需要的相册。线上地址:http://139.199.132.22/
 > A Vue.js project
 
 ## Build Setup
