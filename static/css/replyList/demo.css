@@ -1,0 +1,248 @@
+html, body {
+    height: 100%;
+}
+
+.main {
+    width: 70%;
+}
+
+.list-main {
+    /* border: 1px solid black; */
+    /*width: 60%;*/
+    /*height: 25%;*/
+    padding: 40px;
+    display: flex;
+    /*border: 1px solid red;*/
+    position: relative;
+
+}
+
+
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    flex-grow: 1;
+    position: relative;
+    top: 15px;
+    /*border: 1px solid black;*/
+}
+
+
+.user-cover {
+    flex-grow: 1;
+    /* border: 1px solid black; */
+
+}
+
+.user-info {
+    /* border: 1px solid red; */
+    flex-grow: 60;
+    padding: 10px;
+    position: relative;
+    /* left: -28px; */
+    top: 5px;
+    /*position: relative;*/
+
+}
+
+.user-time {
+    color: #909090;
+    /* opacity: 0.5; */
+    margin-left: 5px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.user-time:hover {
+    color: black;
+
+}
+
+.user-name span{
+    font-weight: bold;
+}
+
+.user-name a {
+    text-decoration: none;
+}
+
+.flag {
+    /*border: 1px solid black;*/
+}
+
+.user-content-main {
+    /* overflow: hidden;
+    height: 80px; */
+}
+
+.user-content-main-active {
+    overflow: hidden;
+    height: 80px;
+}
+
+
+.user-content {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.user-think {
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+}
+
+.good, .bad {
+    display: inline-block;
+    /*border: 1px solid black;*/
+    position: relative;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.good {
+    background: url(../../img/good.png) no-repeat center/contain;
+    cursor: pointer;
+}
+
+.bad {
+    background: url(../../img/bad.png) no-repeat center/contain;
+    cursor: pointer;
+    
+}
+
+.good-num, .bad-num, .to-reply {
+    /* position: relative;
+    left: 18px; */
+}
+
+.look-more {
+    /*border: 1px solid black;*/
+}
+
+.look-more {
+    margin-top: 10px;
+}
+
+.show-more {
+    position: relative;
+}
+
+.look-more {
+    /* border: 1px solid black; */
+     cursor: pointer;
+     font-size: 13px;
+ }
+
+.show-more,.to-reply {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.show-more:hover, .to-reply:hover {
+    opacity: 1;
+}
+
+.bottom-main {
+    position: relative;
+    /*border: 1px solid black;*/
+}
+
+.more-replys {
+    /* border: 1px solid black; */
+    /*height: 20px;*/
+    position: relative;
+
+}
+
+.good-font {
+    /* position: absolute; */
+}
+
+.bad-font {
+    /* position: absolute; */
+}
+
+
+.fonts{
+    display: inline-block;
+    width: 100px;
+    /* border: 1px solid black; */
+}
+
+
+
+.goods, .bads {
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    color: grey;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /*top: 20px;*/
+}
+
+.goods:hover, .bads:hover {
+    color: black;
+}
+
+.goods i, .bads i {
+    font-size: 18px;
+}
+
+.user-think {
+    margin: 0px;
+}
+
+.to-reply {
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.loading-img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 100px;
+}
+
+/* .login-enter {
+    opacity: 0;    
+}
+.login-enter-active {
+    transition: 1s;
+}
+.login-enter-to {
+    opacity: 1;    
+}
+.login-leave {
+    opacity: 1;    
+}
+.login-leave-avtive {
+    transition: 1s;
+
+}
+.login-leave-to {
+    opacity: 0;    
+} */
+
+[v-cloak] {
+  display: none;
+}
+

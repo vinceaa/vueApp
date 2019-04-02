@@ -1,0 +1,299 @@
+/*#carousel-example-generic {
+	margin: 50px 0 0 0;
+}*/
+
+.carousel-inner img {
+    margin: 0 auto;
+    height: 350px;
+}
+
+
+
+#carousel-example-generic {
+    margin: 50px 0 0 0;
+}
+
+.cl img {
+    width: 200px;
+    height: 200px;
+}
+
+.cl {
+    margin-bottom: 30px;
+}
+
+
+#pic-info {
+    margin: 50px 0 0 0;
+}
+
+/*@media (min-width: 768px) {
+    .media-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .media-heading {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media-heading {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media-heading {
+        font-size: 24px;
+    }
+}*/
+
+.infor img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.infor {
+    margin-top: 18px;
+    box-shadow: 2px 2px 3px #ccc;
+
+}
+
+.infor-text {
+
+}
+
+
+.auto {
+    margin-top: 10px;
+}
+
+.infor-pic {
+    margin-top: 30px;
+}
+
+.infor {
+    background: white;
+    shape-outside: 1px 1px 1px;
+
+}
+
+.hot-body {
+    background: #eee;
+}
+
+.infor-txt {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.infor-txt1 {
+
+}
+
+
+
+.infor-main {
+    height: 250px;
+    top: 50px;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 1px 2px 3px #ccc;
+    /*border: 1px solid black;*/
+}
+
+.climg {
+    width: 250px;
+}
+
+.info-pic, .info-text {
+    /*border: 1px solid red;*/
+    height: 200px;
+    margin-top: 20px;
+}
+
+.info-text {
+    margin-left: 15px;
+}
+
+/*.info-pic img {*/
+    /*height: 200px;*/
+    /*width: 400px;*/
+/*}*/
+
+.infor-body {
+    /* background: #eee; */
+    background: #fff;
+}
+
+#footer {
+    height: 80px;
+    margin-top: 60px;
+    background: #666;
+    color: #eee;
+}
+
+.infor-header {
+    height: 300px;
+    background: lightblue;
+    margin-top: 50px;
+    /*text-align: center;*/
+    line-height: 300px;
+}
+
+.infor-header h2 {
+    /*line-height: 300px;*/
+}
+
+.infor-header {
+    /* background-image: url('../img/bg.jpg'); */
+    margin-top: 50px;
+}
+
+.infor-head-main {
+    color: #ccc;
+    position: relative;
+    /*margin: 150px 0px 0px 60px;*/
+    margin-left: 300px;
+    top: 130px;
+}
+
+.infor-footer {
+    color: #eee;
+}
+
+.infor-side {
+    height: 1050px;
+    /*border: 1px solid black;*/
+    margin-top: 80px;
+    background: white;
+    box-shadow: 1px 2px 3px #ccc;
+}
+
+.side-pic, .side-infor {
+    /*border: 1px solid black;*/
+    height: 150px;
+    margin-top: 10px;
+}
+
+.side-pic {
+    margin-left: 5px;
+}
+
+.side-infor {
+    margin-left: -8px;
+}
+
+.side-head {
+    margin-left: 10px;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+}
+
+.side-pic img{
+    height: 123px;
+    left: -16px;
+    width: 161px;
+    position: relative;
+}
+
+/* 单行隐藏加 ... */
+.info-head h3, .side-infor h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 多行隐藏加 ... */
+
+.info-content span {
+    width: 25em;
+    /*height: 3em;/*注意高度和宽度，不允许出现半汉字截断*/
+    overflow: hidden;
+    height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.side-infor span {
+    width: 12em;
+    height: 6em;/*注意高度和宽度，不允许出现半汉字截断*/
+    line-height: 2em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.hot-detail {
+    /*border: 1px solid black;*/
+    height: 1200px;
+    width: 900px;
+    padding: 50px;
+    margin-top: 60px;
+    /*margin-left: 420px;*/
+}
+
+.spot-content h4 {
+    line-height: 50px;
+}
+
+.spot-cover img {
+    /*width: 500px;*/
+    /*height: 400px;*/
+}
+
+.hot-title {
+    position: relative;
+    top: 18px;
+}
+
+.spot-group {
+    margin-top: 40px;
+}
+
+.upload-chance a{
+    position: absolute;
+    left: 415px;
+}
+
+.upload-main {
+    position: absolute;
+    top: -29px;
+    left: 404px;
+}
+
+.markdown-body img {
+    border: 0 none;
+    width: 300px;
+    height: 200px;
+}
+
+.foot-text {
+    color: darkslategrey;
+}
+
+.foot-text:hover {
+    color: cornflowerblue;
+}
+
+.pic-time {
+    position: relative;
+    top: -36px;
+    left: 41px;
+    font-size: 16px;
+    color: slategrey;
+}
+
+
+.btns {
+    border: 3px solid red;
+    height: 800px;
+    /*width: 1135px;*/
+    position: absolute;
+}

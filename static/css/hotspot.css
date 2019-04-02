@@ -1,0 +1,174 @@
+
+
+.content-main {
+    /* background-color: whitesmoke; */
+    background-color: #fff;
+    box-shadow: 1px 2px 3px grey;
+}
+
+.right-content {
+    margin-left: 40px;
+    margin-top: 30px;
+    /*padding: 15px;*/
+}
+
+.left-content {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.right-side {
+    /*margin-top: 30px;*/
+}
+
+.infor-mains {
+    margin-top: 50px;
+}
+
+.hots {
+    border-left: 1px solid black;
+}
+
+.hots h4{
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
+
+.right-pic {
+    height: 112px;
+    width: 200px;
+    top: 20px;
+    position: relative;
+}
+
+
+/* 单行隐藏加 ... */
+.info-head h3, .side-infor h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 多行隐藏加 ... */
+
+.info-content span {
+    width: 25em;
+    overflow: hidden;
+    height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.one-line-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*必须加 span 才行*/
+.more-line-hidden span{
+    width: 25em;
+    /*height: 3em;!*注意高度和宽度，不允许出现半汉字截断*/
+    overflow: hidden;
+    height: 110px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+@media (min-width: 0px) {
+    .more-line-hidden span {
+        width: 10em;
+        line-height: 27px;
+    }
+    .infor-head-main {
+        margin-left: 110px;
+    }
+
+    .inner-text .haha {
+        font-size: 18px;
+        line-height: 104px;
+
+    }
+    .hot-cover {
+        width: 300px;
+        height: 100px;
+        top: 10px;
+        position: relative;
+        line-height: 100px;
+    }
+}
+
+
+@media (min-width: 588px) {
+    .more-line-hidden span {
+        width: 22em;
+        line-height: 27px;
+    }
+    .infor-head-main {
+        margin-left: 300px;
+    }
+    .inner-text .haha {
+        font-size: 26px;
+    }
+    .hot-cover {
+        width: 200px;
+        height: 130px;
+        top: 10px;
+        position: relative;
+        line-height: 100px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .more-line-hidden span {
+        width: 20em;
+        line-height: 27px;
+    }
+    .inner-text .haha {
+        font-size: 26px;
+    }
+    .hot-cover {
+        width: 200px;
+        height: 130px;
+        top: 10px;
+        position: relative;
+        line-height: 100px;
+    }    
+}
+
+@media (min-width: 992px) {
+    .more-line-hidden span {
+        width: 20em;
+    }
+    .inner-text .haha {
+        font-size: 26px;
+    }
+    .hot-cover {
+        width: 300px;
+        height: 140px;
+        top: 10px;
+        position: relative;
+        line-height: 100px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .more-line-hidden span {
+        width: 25em;
+        line-height: 29px;
+    }
+    .inner-text .haha {
+        font-size: 26px;
+    }
+    .hot-cover {
+        width: 300px;
+        height: 150px;
+        top: 10px;
+        position: relative;
+        line-height: 100px;
+    }    
+
+}

@@ -1,0 +1,40 @@
+
+/*html, body {
+    height: 100%;
+}*/
+
+
+.test-main {
+    position: relative;
+    /* border: 1px solid black; */
+    top: 18px;
+    left: 21px;
+}
+
+textarea {
+    position: absolute;
+    /* border: 1px solid black; */
+    border: none;
+    outline: none;
+    resize: none;
+    top: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+pre {
+    /*position: relative;
+    border: 1px solid blue;
+    visibility: hidden;
+*/
+
+    position: relative;
+    /*border: 1px solid blue;*/
+    left: 200px;
+    /*查看盒模型， 观察是什么占据了元素的高度*/
+    margin: 0px;
+    padding: 0;
+    visibility: hidden;
+    
+}

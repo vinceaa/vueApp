@@ -1,0 +1,265 @@
+body {
+    color: #5E5B64;
+    font: 15px/1.3 'Flamenco',sans-serif;
+    text-align: center;
+}
+
+a, a:visited {
+    color: #B0C5BC;
+    outline: medium none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section, footer, header, aside {
+    display: block;
+}
+
+.title {
+    color: #5E5B64;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.form {
+    width: 860px;
+    margin: auto;
+}
+
+input {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    font-size: 14px;
+    height: 20px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 300px;
+}
+
+textarea {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    font-size: 14px;
+    padding: 6px 2px 12px 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+input:focus {
+    border-color: #66AFE9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+
+label {
+    font-size: 22px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.form-group {
+    margin-left: -200px;
+}
+
+.form-group > label {
+    display: inline-block;
+    margin: 6px;
+    min-width: 200px;
+    text-align: right;
+}
+
+[class^=btn-] {
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 1px #CCCCCC;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1;
+    overflow: hidden;
+    padding: 4px 60px;
+    position: relative;
+    text-decoration: none !important;
+    width: 170px;
+    height: 46px;
+}
+
+.form-submit {
+    margin-top : 40px;
+}
+
+.btn-submit {
+    background-color: #51B7E6;
+    background-image: -moz-linear-gradient(center top , #51B7E6, #4DAFDD);
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #95A4A7;
+    background-image: -moz-linear-gradient(center top , #95A4A7, #8DA0A0);
+    cursor: pointer;
+}
+
+.errormsg {
+    color: #DD4B39;
+    margin: 0 10px 15px;
+    position: relative;
+    right: -45%;
+    text-align: left;
+    width: 350px;
+}
+
+.errorborder {
+    border: 1px solid #DD4B39;
+}
+
+.validate-error {
+    background-color: #FFFDC8;
+    border: 1px solid #F39191;
+    color: #DD0000;
+    margin: 8px;
+    padding: 5px 10px;
+    width: 469px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: #428BCA;
+    border-color: #357EBD;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 4px 10px;
+}
+
+.disabled {
+    background-color: #3076B4;
+    border-color: #357EBD;
+    color: #BBB;
+    cursor: pointer;
+}
+
+.disabled:hover {
+    background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #34495E;
+    border-radius: 2px 2px 0 0;
+    bottom: 0;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.4);
+    font: 16px Arial,Helvetica,sans-serif;
+    left: 50%;
+    margin-left: -420px;
+    padding: 15px 35px;
+    position: fixed;
+    width: 770px;
+    z-index: 1;
+}
+
+footer .close {
+    background: url("http://demo.neutrinoboy.jp/icons/circle-remove.png") no-repeat scroll 0 0 / 50% auto rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    right: -16px;
+    top: 1px;
+    width: 38px;
+    z-index: 3;
+}
+
+.main-logo {
+    color: #DAD5D2;
+    font-family: 'moonhouse';
+    font-size: 24px;
+    font-weight: bold;
+    left: 40px;
+    line-height: 18px;
+    position: absolute;
+}
+
+.markdown-wrapper {
+    background-color: #EBEBEB;
+    border-radius: 6px;
+    display: table;
+    /*margin: auto;*/
+    padding: 15px;
+    text-align: left;
+    width: 810px;
+}
+
+.markdown-text {
+    float: left;
+    margin-right: 55px;
+    width: 330px;
+}
+
+.markdown {
+    float: left;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 390px;
+}
+
+
+/* 自己加的 */
+
+.hotspot-main {
+
+}
+
+.hotspot_title {
+    position: absolute;
+    left: 15px;
+    top: -15px;
+}
+
+.hotspot_type {
+    position: absolute;
+    left: 320px;
+    top: -15px;
+
+}
+
+.add-hotspot {
+    position: absolute;
+    left: 232px;
+    top: 58px;
+
+}
+
+.row-right, .row-left {
+    height: 1000px;
+    /*border: 1px solid red;*/
+    top: 100px;
+}
+
+.row-right {
+    margin-left: 70px;
+    position: relative;
+    left: 0px;
+    text-align: left;
+}
+
+.hot-cover {
+    display: inline;
+}

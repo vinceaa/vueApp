@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+
+
+.rippleInit {
+    border-radius: 50%;
+    position: absolute;
+    animation: rippling 0.5s;
+}
+
+@keyframes rippling {
+    0% {
+        background: black;
+        opacity: 0.2;
+    }
+
+    50% {
+        background: black;
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale3d(10, 10, 1);
+    }
+
+}

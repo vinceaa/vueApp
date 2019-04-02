@@ -1,0 +1,326 @@
+body {
+    background: #fff;
+}
+
+.fixed {
+    position: absolute;
+    left: 0;
+
+}
+
+.testA {
+    color: blue;
+}
+
+.test-main {
+    display: flex;
+
+}
+
+.submitInfo {
+    color: #d50000;
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+}
+
+
+
+
+.input-ceil {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    display: block;
+    font-size: 20px;
+    position: relative;
+    top: -21px;
+
+}
+
+.input-main {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin-top: 10px;
+}
+
+.input-infor {
+    color: #6459598f;
+    position: relative;
+    /*border: 1px solid black;*/
+    top: -32px;
+    transition: .2s;
+}
+
+.input-infor-active {
+    top: -64px;
+    font-size: 10px;
+    color: #7fadfa;
+}
+
+
+
+.progress-default {
+    /*width: 0%;*/
+    height: 3px;
+    /*border: 1px solid black;*/
+    transform: scale3d(1, 1, 1);
+    background: rgba(0,0,0,0.12);
+    opacity: 1;
+    position: relative;
+    top: -25px;
+}
+
+.progress {
+    /*width: 0%;*/
+    height: 3px;
+    /*border: 1px solid black;*/
+    /*transition: 2s;*/
+    transition: .2s;
+    transform: scale3d(0, 1, 1);
+    background: #7fadfa;
+    
+    opacity: 1;
+    position: relative;
+    top: -28px;
+    /*transform-origin: right;*/
+
+}
+
+.progress-warning {
+      height: 3px;
+      transition: .2s;
+      transform: scale3d(1, 1, 1);
+      background: #d50000;
+      opacity: 1;
+      position: absolute;
+      top: 40px;
+      width: 100%;
+}
+
+.progress-active {
+    transform: scale3d(1, 1, 1);
+}
+
+
+
+.progress-active-leave {
+    opacity: 0;
+
+}
+
+
+.rotate {
+    width: 140px;
+    height: 3px;
+    border: 1px solid black;
+    transform-origin: 100px center;
+    transform: scale(2);
+    transition: 2s;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.trans {
+    width: 200px;
+    height: 200px;
+    transition: height 10s;
+    transition: width 5s;
+    border: 1px solid black;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.parent {
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+}
+
+.login-action {
+    position: absolute;
+    /*top: 125px;*/
+    margin-left: 400px;
+    right: 40px;
+    bottom: 220px;
+}
+
+.login-btn {
+    width: 88px;
+    height: 36px;
+    /* border: 1px solid black; */
+    text-align: center;
+    line-height: 36px;
+    background: #4285f4;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 90px;
+    overflow: hidden;
+}
+
+.register-info {
+    position: relative;
+    width: 90px;
+    height: 36px;
+    /*border: 1px solid black;*/
+    top: 95px;
+    font-size: 14px;
+    left: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #7fadfa;
+}
+
+/* 响应设计 */
+@media (min-width: 0px) and (max-width: 600px) {
+
+
+    .login-ceil {
+        width: 450px;
+        height: 500px;
+        /*position: relative;*/
+        /* position: relative;; */
+        z-index: 2;
+        padding: 30px;
+        position: absolute;
+        
+    }
+}
+
+
+@media (min-width: 600px) {
+    .login-ceil {
+        /*flex-grow: 1;*/
+        /*background: white;*/
+        width: 450px;
+        height: 500px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px grey;
+        /*position: relative;*/
+        position: relative;
+
+        /*left: 50%;*/
+        margin-left: 50%;
+        top: 90px;
+        transform: translateX(-50%);
+        z-index: 2;
+        padding: 30px;
+        position: absolute;
+        
+    }
+}
+
+.close-btn {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    /*background: black;*/
+    /*text-align: center;*/
+    /*border: 1px solid black;*/
+    line-height: 14px;
+    width: 20px;
+    height: 20px;
+    background: url('../img/close.png') no-repeat center/contain;
+}
+
+.close-btn:hover {
+    transform: rotate(360deg);
+
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.login-init {
+    width: 88px;
+    height: 36px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    line-height: 36px;
+    background: #4285f4;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    left: 0;
+    top: 0;
+}
+
+.login-init-active {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*opacity: 0.5;*/
+    background: #fff;
+    /*border: 1px solid black;*/
+}
+
+
+.input-info-main {
+    position: relative;
+    top: 46px;
+    z-index: 2;
+}
+
+
+.warn {
+    position: relative;
+    left: 122px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.result {
+    position: relative;
+    color: #d50000;
+    left: 50%;
+    /* border: 1px solid black; */
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+}
+
+.login-enter {
+    opacity: 0;    
+}
+.login-enter-active {
+    transition: 3s;
+}
+.login-enter-to {
+    opacity: 1;    
+}
+.login-leave {
+    opacity: 1;    
+}
+.login-leave-avtive {
+    transition: 3s;
+
+}
+.login-leave-to {
+    opacity: 0;    
+}
+

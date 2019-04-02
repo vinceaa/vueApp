@@ -1,0 +1,423 @@
+.actives {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid beige;
+    background-color: lightcoral;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.hotspot-head span {
+    color: #000;
+    margin-left: 5px;
+}
+
+.hotspot-head {
+    margin-bottom: 8px;
+}
+
+.hotspot-ceil span {
+    margin-right: 8px;
+}
+
+.bds {
+    /*border: 1px solid black;*/
+    /*height: 220px;*/
+    /*margin: 15px;*/
+    padding: 0px;
+    margin: 10px;
+}
+
+.pic-main {
+    height: 150px;
+    width: 350px;
+    /*border: 1px solid black;*/
+    box-shadow:  1px 2px 3px grey;
+    /*margin: 10px;*/
+}
+
+.bottom-info,  bottom-info1 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.bottom-info {
+    margin-top: -31px;
+    margin-left: 24px;
+    width: 130px;
+    position: relative;
+    top: 10px;
+    top: 30px;
+
+    color: #735f92;
+}
+
+.bottom-info1 {
+    margin-top: -14px;
+    margin-left: 26px;
+    width: 146px;
+    position: relative;
+    box-shadow: 1px 6px 20px grey;
+    height: 28px;
+    top: -9px;
+    z-index: -1;
+}
+
+.box-lg, .box-small {
+    box-shadow: 1px 2px 3px grey;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.box-lg {
+    width: 149px;
+    background-color: white;
+    height: 23px;
+    z-index: 1;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.box-small {
+    width: 142px;
+    height: 25px;
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: -1;
+    top: -19px;
+    left: 5px;
+    background-color: white;
+}
+
+.box-main {
+    position: absolute;
+}
+
+a {
+    cursor: pointer;
+}
+
+ul {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+/* animate */
+
+/* .slide-left-enter {
+    opacity: 0;
+    transform: translateX(1140px)
+}
+
+
+.slide-left-enter-active {
+    transition: 1s;
+}
+
+
+.slide-left-enter-to {
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+
+.slide-left-leave {
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+.slide-left-leave-active {
+    transition: 1s;
+}
+
+.slide-left-leave-to {
+    opacity: 0;
+    transform: translateX(-1140px)
+}
+
+
+
+.slide-right-enter {
+    opacity: 0;
+    transform: translateX(-1140px)
+}
+
+
+.slide-right-enter-active {
+    transition: 1s;
+}
+
+
+.slide-right-enter-to {
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+
+.slide-right-leave {
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+.slide-right-leave-active {
+    transition: 1s;
+}
+
+.slide-right-leave-to {
+    opacity: 0;
+    transform: translateX(1140px)
+} */
+
+
+.ceil-block {
+    position: absolute;
+    /* left: 0; */
+    /* transition: 5s; */
+    /* position: relative; */
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 900px) {
+    .main-c {
+        width: 350px;
+        height: 1000px;
+        /* border: 1px solid black; */
+    }
+
+}
+
+@media (min-width: 900px) {
+    .main-c {
+        width: 1100px;
+        height: 400px;
+        /* border: 1px solid black; */
+    }
+
+}
+
+
+@media (min-width: 300px) {
+
+
+    .slide-left-enter {
+        opacity: 0;
+        transform: translateX(350px)
+    }
+
+
+    .slide-left-enter-active {
+        transition: 1s;
+    }
+
+
+    .slide-left-enter-to {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+
+    .slide-left-leave {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+    .slide-left-leave-active {
+        transition: 1s;
+    }
+
+    .slide-left-leave-to {
+        opacity: 0;
+        transform: translateX(-350px)
+    }
+
+
+
+    .slide-right-enter {
+        opacity: 0;
+        transform: translateX(-350px)
+    }
+
+
+    .slide-right-enter-active {
+        transition: 1s;
+    }
+
+
+    .slide-right-enter-to {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+
+    .slide-right-leave {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+    .slide-right-leave-active {
+        transition: 1s;
+    }
+
+    .slide-right-leave-to {
+        opacity: 0;
+        transform: translateX(350px)
+    }
+
+
+    .ceil-block {
+        position: absolute;
+        /* position: relative; */
+    }
+
+}
+
+
+@media (min-width: 500px) {
+    .slide-left-enter {
+        opacity: 0;
+        transform: translateX(1140px)
+    }
+
+
+    .slide-left-enter-active {
+        transition: 1s;
+    }
+
+
+    .slide-left-enter-to {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+
+    .slide-left-leave {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+    .slide-left-leave-active {
+        transition: 1s;
+    }
+
+    .slide-left-leave-to {
+        opacity: 0;
+        transform: translateX(-1140px)
+    }
+
+
+
+    .slide-right-enter {
+        opacity: 0;
+        transform: translateX(-1140px)
+    }
+
+
+    .slide-right-enter-active {
+        transition: 1s;
+    }
+
+
+    .slide-right-enter-to {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+
+    .slide-right-leave {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+
+    .slide-right-leave-active {
+        transition: 1s;
+    }
+
+    .slide-right-leave-to {
+        opacity: 0;
+        transform: translateX(1140px)
+    }
+
+
+    .ceil-block {
+        position: absolute;
+        /* position: relative; */
+    }
+
+
+}
+
+
+
+.pagination {
+    position: relative;
+}
+
+.pagination a{
+    cursor: pointer;
+}
+
+/* .main-c {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+} */
+
+
+/* swipe  */
+
+.my-swipe {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: 800px;
+  /* overflow: hidden; */
+  left: 50%;
+}
+
+.slide1 {
+    float: left;
+
+    width: 200px;
+    /* position: absolute; */
+    background-color: black;
+    color: #fff;
+    height: 200px;
+  
+}
+
+.slide2 {
+    float: left;
+    width: 200px;
+    /* position: absolute; */
+    background-color: #ffd705;
+    color: #000;
+    height: 200px;
+    
+}
+
+.slide3 {
+    float: left;
+        
+    width: 200px;
+    /* position: absolute; */
+    background-color: #ff2d4b;
+    color: #000;
+    height: 200px;
+    
+}
+
+/* .slide3 {
+  background-color: #ff2d4b;
+  color: #fff;
+  height: 200px;
+  
+} */

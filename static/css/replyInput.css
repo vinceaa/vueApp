@@ -1,0 +1,160 @@
+.reply-main {
+    position: relative;
+    width: 70%;
+    /* height: 15%; */
+    /* height: 130px; */
+    /* border: 1px solid black; */
+}
+
+body, html {
+    height: 100%;
+}
+
+.reply-ceil {
+    position: absolute;
+    position: relative;
+    /*border: 1px solid black;*/
+    width: 100%;
+    /*height: 200px;*/
+}
+
+.c-user-cover {
+    width: 40px;
+    height: 40px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 28px;
+    margin: 39px;
+}
+
+.c-user-cover img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: -10px;
+}
+
+.reply-input {
+    outline: none;
+    border: none;
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 20px;
+    resize: none;
+    height: 34px;
+    margin-bottom: -4px;
+    
+}
+
+.reply-prompt1 {
+    position: relative;
+}
+
+.reply-content {
+    margin-left: 40px;
+    position: relative;
+    top: 5px;
+    /*border: 1px solid blue;*/
+    padding: 32px;
+
+}
+
+.reply-prompt1 {
+    font-size: 10px;
+    color: grey;
+    top: 78px;
+    left: 57px;
+    position: absolute;
+    z-index: 1;
+    
+    /*border: 1px solid black;*/
+}
+
+.load-default {
+    position: relative;
+    height: 3px;
+    /* width: 100%; */
+    width: 100%;
+    /* border: 1px solid black; */
+    background: grey;
+    opacity: 0.2;
+    left: 21px;
+    top: 24px;
+
+}
+
+.loading1 {
+    position: relative;
+    height: 3px;
+    /*width: 100%;*/
+    /*border: 1px solid black;*/
+    /* background: lightblue; */
+    background: hsl(206.1, 79.3%, 52.7%);
+    
+    transform: scale3d(0, 1, 1);
+    transition: .2s;
+    opacity: 1;
+
+    top: 21px;
+    left: 21px;
+}
+
+
+.reply-btn-main1 {
+    position: relative;
+    left: 60%;
+    top: 10px;
+    width: 173px;
+    height: 39px;
+    /*border: 1px solid black;*/
+    display: none;
+
+}
+
+.reply-btn1 {
+    position: absolute;
+    /*border: 1px solid black;*/
+    height: 40px;
+    width: 71px;
+    text-align: center;
+    line-height: 40px;
+    background: hsl(206.1, 79.3%, 52.7%);
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+
+.cancel-btn {
+    /* position: absolute; */
+    position: relative;    
+    /* border: 1px solid black; */
+    left: 100px;
+    /* right: 20px; */
+    height: 40px;
+    width: 71px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+
+    /*top: 10px;*/
+}
+
+.cancel-btn:hover {
+    color: grey;
+}
+
+/*reply list main*/
+.reply-list-main1 {
+    width: 70%;
+    height: 85%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
